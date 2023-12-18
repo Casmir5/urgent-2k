@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="relative ">
+
+    <header class="">
+        <div class="flex items-center justify-between mx-auto flex-wrap">
+            <div>
+                <img src="/img/logo.png" alt="">
+            </div>
+
+            <!--  nav links -->
+            <nav class="">
+                <!-- <div> -->
+                <ul class="flex gap-20  flex-wrap items-center mx-10">
+                    <li class="active hide-on-mobile"><a href="#">home</a></li>
+                    <li class="hide-on-mobile">service</li>
+                    <li class="hide-on-mobile">features</li>
+                    <li class="hide-on-mobile">contact</li>
+                    <li class="auth login hide-on-mobile"><a href="#">login</a></li>
+                    <li class="auth signup hide-on-mobile"><a href="#">signup</a></li>
+                    <button class="open-sidebar hidden"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40"
+                                viewBox="0 -960 960 960" width="40">
+                                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                            </svg></a></button>
+                </ul>
+                <ul
+                    class="flex flex-col fixed h-screen gap-10  flex-wrap right-0 top-0 w-[50%] z-[999] translate-x-full ease-in duration-150 bg-[#ffffff65] backdrop-blur items-start justify-start pl-8 pt-5 sidebar">
+
+                    <li class="close-sidebar"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="40"
+                                viewBox="0 -960 960 960" width="40">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li class="active"><a href="#">home</a></li>
+                    <li>service</li>
+                    <li>features</li>
+                    <li>contact</li>
+                    <li class="auth login"><a href="#">login</a></li>
+                    <li class="auth signup"><a href="#">signup</a></li>
+                </ul>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+        <section class="flex flex-wrap justify-between items-center hero mb-20 overflow-y-hidden ">
+            <!-- <div class="flex justify-between"> -->
+            <div class="flex flex-col sm:ml-5 md:ml-5 hero-content hide-element ">
+                <h2 class="text-[64px] font-bold">Get your urgent 2k</h2>
+                <p class="text-[#001B1F] text-2xl font-normal leading-8 pb-5">No cash, No wahala get our
+                    application
+                    and
+                    deal
+                    <br> with Sapa
+                </p>
+                <div class="flex mb-10">
+                    <div class=" flex flex-col gap-2 mr-10">
+                        <h4 class="text-2xl font-bold leading-8">20k +</h4>
+                        <p class="text-sm font-normal gap-10">Active users</p>
+                    </div>
+                    <div class="flex flex-col gap-2">
+                        <h4 class="text-2xl font-bold leading-8">30M +
+                        </h4>
+                        <p class="text-sm font-normal ">Download</p>
+                    </div>
+                </div>
+                <div class="flex items-center">
+                    <button class="btn-get_started">Get Started
+                    </button>
+                    <div class="flex  h-[48px] gap-2 py-3 px-5 ">
+                        <img src="/img/icon/settings.png" alt="an icon">
+                        <p>How it Works</p>
+                    </div>
+                </div>
+            </div>
+            <div class="ml-auto  hero-img hide-element">
+                <img class="w-full" src="./img/Group 1 (1).png" alt="">
+            </div>
+        </section>
+
+        <section class="hide-element flex justify-center items-center flex-col section_2 mb-20">
+            <h2 class="text-center text-[40px] font-normal hide-element">What you stand to benefit.</h2>
+            <p class="text-2xl font-normal leading-normal pb-10 hide-element">This is how our products works
+            </p>
+
+            <div class="flex gap-10 flex-wrap justify-center ">
+                <div class="card flex flex-col gap-5 ">
+                    <div class="flex justify-center">
+                        <img src="/img/image-removebg-preview (46) 2.svg" alt="">
+                    </div>
+                    <h4 class="text-center text-xl font-bold leading">No more Sapa</h4>
+                    <p class="text-justify">In Nigerian Pidgin English, "Sapa" is sometimes
+                        used to describe financial hardship or running out of money.
+                    </p>
+                </div>
+                <div class="card flex flex-col gap-5">
+                    <div class="flex justify-center">
+                        <img src="/img/image_2-removebg-preview 2.svg" alt="">
+                    </div>
+                    <h4 class="text-center text-xl font-bold leading">No more Sapa</h4>
+                    <p class="text-justify">In Nigerian Pidgin English, "Sapa" is sometimes
+                        used to describe financial hardship or running out of money.
+                    </p>
+                </div>
+                <div class="card flex flex-col gap-5 justify-self-start">
+                    <div class="flex justify-center ">
+                        <img class="w-48 h-28" src="/img/section2(3)img.svg" alt="">
+                    </div>
+                    <h4 class="text-center text-xl font-bold leading">Boss I greet ooh</h4>
+                    <p class="text-justify">In Nigerian Pidgin English, "Sapa" is sometimes
+                        used to describe financial hardship or running out of money.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="hide-element max-h-[570px] bg-[#00545F] overflow-y-hidden mb-20 section_3">
+            <div class="flex justify-between   flex-wrap content-wrap">
+                <div class="max-w-[700px] img-wrap ">
+                    <img class="w-full" src="/img/section3(1)img.svg" alt="">
+                </div>
+
+                <div class="relative">
+                    <img src="/img/section3(2)img.svg" alt="">
+                    <div class="absolute top-[30rem] max-w-[784px] bg-[#00545F] h-[200px]">
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <section class="hide-element pb-20 section_4">
+            <div class="flex section-4_wrap justify-between mx-20  flex-wrap items-center   ">
+                <div class="flex flex-col gap-10 pt-10 self-center">
+                    <h2 class="text-[40px] font-medium leading-8 ">Urgent Tukay - the Notes.</h2>
+                    <p class="text-2xl font-normal leading-8">No cash, No wahala get our appllication and deal
+                        <br> with
+                        Sapa
+                    </p>
+                    <button class="btn-get_started self-start ">Get Started</button>
+                </div>
+
+                <div class="max-w-[900px] w-full  p-10 relative mb-20">
+                    <div class="absolute top-0 max-w-[540px] w-full left-1/4 img-wrap ">
+                        <img class="w-full" src="./img/image-removebg-preview (47) 1.png" alt="">
+                    </div>
+
+                    <div class="absolute  max-w-[540px] w-full top-32 img-wrap">
+                        <img class="w-full" src="./img/image-removebg-preview (48) 1.jpg" alt="">
+                    </div>
+                    <!-- <img class="absolute  w-full  h-full" src="./img/image-removebg-preview (48) 1.jpg" alt=""> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class=" bg-[#00545F] mt-48 flex gap-10 items-center  justify-around flex-wrap">
+        <div class="h-full max-w-[379px]">
+            <img class="w-full h-full" src="/img/footer-img.svg" alt="">
+        </div>
+        <div class="max-w-[450px] ">
+            <p class="text-2xl font-normal leading-normal text-white text-center text-footer">Urgent Tukay - the
+                Notes.
+                <br>
+                <span class=""> No cash, No wahala get our appllication and deal with Sapa</span>
+
+            </p>
+        </div>
+        <div class="flex gap-20 flex-wrap justify-between footer-links_container">
+            <!-- <div class="justify-between"></div> -->
+            <div class="footer-links">
+                <h5 class="">App</h5>
+                <ul>
+                    <li><a href="#">Learning Modules</a></li>
+                    <li><a href="#">Partnership</a></li>
+                    <li><a href="#">Watch demo</a></li>
+                    <li><a href="#">Event</a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h5 class="">About</h5>
+                <ul>
+                    <li><a href="#">Our Company </a></li>
+                    <li><a href="#">Career</a></li>
+                    <li><a href="#">Investors Relations</a></li>
+                    <li><a href="#">Social Impact </a></li>
+                </ul>
+            </div>
+            <div class="footer-links">
+                <h5 class="">Resources </h5>
+                <ul>
+                    <li><a href="#">Contact </a></li>
+                    <li><a href="#">Give feedback </a></li>
+                    <li><a href="#">System status</a></li>
+                    <li><a href="#">Privacy Policy </a></li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </footer>
+    <script src="/index.js"></script>
+</body>
+
+</html>
