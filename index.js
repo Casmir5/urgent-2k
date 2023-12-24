@@ -10,9 +10,11 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
-const hiddenElements = document.querySelectorAll(".hide-element");
-console.log(hiddenElements);
-hiddenElements.forEach((el) => observer.observe(el));
+const hiddenElementsLeft = document.querySelectorAll(".hide-element-left");
+const hiddenElementsRight = document.querySelectorAll(".hide-element-right");
+
+hiddenElementsLeft.forEach((el) => observer.observe(el));
+hiddenElementsRight.forEach((el) => observer.observe(el));
 
 const siderbar = document.querySelector(".sidebar");
 const openSidebar = document.querySelector(".open-sidebar");
